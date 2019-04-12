@@ -1,3 +1,4 @@
+<!--jp-->
 # Sprint Challenge: Testing - TDD Video Games
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored Testing. During this Sprint, you studied Introduction to Automated Testing, Testing React Applications & Testing Web APIs. In your challenge this week, you will demonstrate proficiency by creating an application that follows the TDD pattern to create a simple Web API using Node.js and Express.
@@ -25,8 +26,18 @@ In this challenge use `Test Driven Development` to build a RESTful API using Nod
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. In Jest, what are the differences between `describe()` and `it()` globals, and what are good uses for them?
+describe defines a block of code where you will write tests for that specific
+thins. It lets you declare and have a nice visual break down of whats going on.
+the it actually runs the test and is used to test the actual code
 1. What is the point of `Test Driven Development`? What do you think about this approach?
+TDD i think is useful for flushing out and reducing bugs before production. I
+see the benefit. that being said currently it's just not my cup of tea. I would
+just test and test and never build anything. I see how it's important and also
+how it takes lots of time.
 1. Mention three types of automated tests.
+unit tests, integration tests, component testing. 1 simple and fast wrote by
+devs. 2. test for how code integrates or breaks during integration. 3. test
+components and how they render/ work or don't work.
 
 ## Project Set Up
 
